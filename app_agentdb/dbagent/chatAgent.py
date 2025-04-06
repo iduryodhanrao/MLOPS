@@ -81,15 +81,6 @@ def print_chat_turns(chat):
 
 
 #print(execute_query("select * from products"))
-"""
-client = genai.Client(api_key="AIzaSyC4EjwwaKA0Dd0Zc3TA_HhjEhTMeCBJWok")
-response = client.models.generate_content(
-    model="gemini-2.0-flash",
-    contents="Explain how AI works",
-)
-
-print(response.text)
-"""
 
 # These are the Python functions defined above.
 db_tools = [list_tables, describe_table, execute_query]
@@ -101,7 +92,6 @@ answer the user's question using the data returned.
 
 Use list_tables to see what tables are present, describe_table to understand the
 schema, and execute_query to issue an SQL SELECT query."""
-#GOOGLE_API_KEY='AIzaSyC4EjwwaKA0Dd0Zc3TA_HhjEhTMeCBJWok'
 
 with open("../../config.json", "r") as config_file:
     config = json.load(config_file)
