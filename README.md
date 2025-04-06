@@ -1,12 +1,11 @@
 # MLOPS
 AI and ML related projects
 
-usage: 
+# usage: 
 git clone <project>
 cd <project>
 python -m venv venv
 pip install -r requirements.txt
 
 
-
-check for individual apps for README instructions for each app.
+# Check for individual apps within for detailed README instructions for that app.

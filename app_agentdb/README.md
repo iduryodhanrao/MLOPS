@@ -3,41 +3,41 @@ The app_agentdb takes english statements like "get the list of orders made by ea
 
 
 # Run FrontEnd: from app_agentdb directory
-* npm start
+## npm start
 The front-end will be available at http://localhost:3000.
 Use the interface to interact with the back-end API.
 
 
 # Run the API Server - from root directory
-* uvicorn app_agentdb.api.api:app --reload
+## uvicorn app_agentdb.api.api:app --reload
 The API will be available at http://127.0.0.1:8000.
 You can test the endpoints using tools like Postman, cURL, or a browser
 
 
 # Initial setup
-* requirements.txt
+## requirements.txt
 generate:pip freeze > requirements.txt
-* usage: 
+### usage: 
 git clone <project>
 cd <project>
 python -m venv venv
 pip install -r requirements.txt
 
 
-* pipfile and pipfile.lock
+## pipfile and pipfile.lock
 generate: pipevn install
 
-* usage:
+### usage:
 git clone <project>
 cd <project>
 install dependencies: pipvenv install
 Activate Virtual Env: pipvenv shell
 --creates pipfile and pipfile.lock
 
-* pyproject.toml
+## pyproject.toml
 poetry init
 
-* usage:
+### usage:
 git clone <project>
 cd <project>
 install dependencies: poetry install
