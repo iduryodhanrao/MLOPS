@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+
+# Ignore configuration files
+config.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and temporary files
+*.log
+*.tmp
