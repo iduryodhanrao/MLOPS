@@ -14,4 +14,5 @@ config.json
     "GOOGLE_API_KEY": "<add google api key>"
 }
 
-## Check for individual apps within for detailed README instructions for that app.
+## Separate README instructions for Individual apps within this repo
+Check for individual apps within for detailed README instructions for that app.
