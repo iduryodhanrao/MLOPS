@@ -18,3 +18,5 @@ config.json
 Check for individual apps within for detailed README instructions for that app.
 
 ![image](https://github.com/user-attachments/assets/6ae84a11-aa6d-4c0d-9356-833193959ef7)
+
+![image](https://github.com/user-attachments/assets/d8a91aa4-a08f-4854-8b42-dc441c6b42a9)
